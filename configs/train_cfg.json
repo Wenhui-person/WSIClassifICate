@@ -1,0 +1,16 @@
+{
+  "model": "resnet18",
+  "img_size": 256,
+  "crop_size": 224,
+  "sup_batch_size": 16,
+  "unsup_batch_size": 208,
+  "lr": 0.001,
+  "momentum": 0.9,
+  "epoch": 30,
+  "alph": 1.0,
+  "gamma": 0.0,
+  "beta": 0.0,
+  "log_every": 100,
+  "tsa": "exp_schedule",
+  "batch_size": 2
+}
